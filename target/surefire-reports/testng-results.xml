@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="28974" started-at="2022-09-02T19:34:29Z" finished-at="2022-09-02T19:34:58Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.demo.runner.TestRunner@436a4e4b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="28974" started-at="2022-09-02T19:34:29Z" finished-at="2022-09-02T19:34:58Z">
+      <class name="com.demo.runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.demo.runner.TestRunner@436a4e4b]" name="setUpClass" is-config="true" duration-ms="292" started-at="2022-09-02T19:34:29Z" finished-at="2022-09-02T19:34:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.demo.runner.TestRunner@436a4e4b]" name="runScenario" duration-ms="22019" started-at="2022-09-02T19:34:29Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-02T19:34:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["user should launch Ciklum website url"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[user should launch ciklum webstie and then click Aboutus]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.demo.runner.TestRunner@436a4e4b]" name="runScenario" duration-ms="6560" started-at="2022-09-02T19:34:51Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-02T19:34:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["user has to to click Wahtwedolink in Ciklum website"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[user has to do launch ciklum website and click whatwedolink]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.demo.runner.TestRunner@436a4e4b]" name="tearDownClass" is-config="true" duration-ms="86" started-at="2022-09-02T19:34:58Z" finished-at="2022-09-02T19:34:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.demo.runner.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,130 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-02T19:34:29.883Z",
+        "line": 2,
+        "name": "user should launch Ciklum website url",
+        "description": "",
+        "id": "user-should-launch-ciklum-webstie-and-then-click-aboutus;user-should-launch-ciklum-website-url",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6784000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user open the browser and launch ciklum website",
+            "match": {
+              "location": "com.demo.stepdef.AboutusStep.user_open_the_browser_and_launch_ciklum_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6102000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user on Main menu",
+            "match": {
+              "location": "com.demo.stepdef.AboutusStep.user_on_main_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9011000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should click on Aboutus link",
+            "match": {
+              "location": "com.demo.stepdef.AboutusStep.user_should_click_on_aboutus_link()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "user should launch ciklum webstie and then click Aboutus",
+    "description": "",
+    "id": "user-should-launch-ciklum-webstie-and-then-click-aboutus",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/com/demo/feature/ciklumAboutus.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-02T19:34:51.816Z",
+        "line": 2,
+        "name": "user has to to click Wahtwedolink in Ciklum website",
+        "description": "",
+        "id": "user-has-to-do-launch-ciklum-website-and-click-whatwedolink;user-has-to-to-click-wahtwedolink-in-ciklum-website",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6325000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user open the browser",
+            "match": {
+              "location": "com.demo.stepdef.WhatwedolinkStep.user_open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 107000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click on main menu ciklum website",
+            "match": {
+              "location": "com.demo.stepdef.WhatwedolinkStep.user_click_on_main_menu_ciklum_website()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 118000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Whatwedo link should be clicked",
+            "match": {
+              "location": "com.demo.stepdef.WhatwedolinkStep.whatwedo_link_should_be_clicked()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "productengineering link should be Clicked",
+            "match": {
+              "location": "com.demo.stepdef.WhatwedolinkStep.productengineering_link_should_be_clicked()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "user has to do launch ciklum website and click whatwedolink",
+    "description": "",
+    "id": "user-has-to-do-launch-ciklum-website-and-click-whatwedolink",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/com/demo/feature/ciklumwhatwedo.feature",
+    "tags": []
+  }
+]
